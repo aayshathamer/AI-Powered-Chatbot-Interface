@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    height: 100vh;
+    flex-direction: column;
+    animation: fadeIn 1.5s ease-out;
+}
+
+body {
+    margin: 0px;
+    color: #f0f4f8;
+    direction: rtl;
+    background-color: #0d1b2a;
+}
+
+body, button, input {
+    font-family: 'Cairo', sans-serif;
+}
+
+#main-title {
+    font-size: 80px;
+    margin: 0px;
+    color: #e0e7ff;
+    text-shadow: 0px 0px 10px #7180ac;
+    animation: float 6s ease-in-out infinite;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    height: 220px;
+    width: 750px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+    transition: transform 0.3s;
+}
+
+#main-content:hover {
+    transform: scale(1.02);
+}
+
+#word-input {
+    width: 520px;
+    height: 55px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    padding: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 18px;
+    transition: border 0.3s;
+}
+
+#word-input:focus {
+    border: 1px solid #90cdf4;
+    outline: none;
+}
+
+#submit-btn {
+    height: 55px;
+    border: none;
+    border-radius: 100px;
+    margin: 0px 10px;
+    width: 170px;
+    background: linear-gradient(135deg, #4361ee, #7209b7);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0px 4px 12px rgba(67, 97, 238, 0.4);
+}
+
+#submit-btn:hover {
+    background: linear-gradient(135deg, #3a0ca3, #560bad);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 16px rgba(67, 97, 238, 0.6);
+}
+
+#reply-content {
+    font-size: 22px;
+    color: #dbeafe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    height: 420px;
+    width: 750px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+}
+
+/* Motion */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
