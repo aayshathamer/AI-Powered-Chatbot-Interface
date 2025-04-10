@@ -14,6 +14,7 @@ Built with HTML, CSS, and JavaScript
 Connects to OpenAI GPT via Axios
 
 RTL language support (e.g., Arabic)
+
 ................................................................
 
 #Setup
