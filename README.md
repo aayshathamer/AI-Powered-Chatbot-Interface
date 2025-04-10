@@ -1,7 +1,8 @@
 # AI-Powered-Chatbot-Interface
 A clean, modern chatbot interface powered by OpenAI's GPT model. It features a calm, space-inspired design with smooth animations and RTL support.
 
-![7](https://github.com/user-attachments/assets/60bff94c-f6ff-4186-95b8-e096ab04af70)
+![8](https://github.com/user-attachments/assets/6606ec71-7822-44c2-803c-7e9752e93d8f)
+
 
 
 ................................................................
